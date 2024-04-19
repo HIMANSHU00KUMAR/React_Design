@@ -3,7 +3,7 @@ import AndroidLong from './AndroidPages/AndroidLong'
 
 type Props = {}
 
-const HomePage = (props: Props) => {
+const HomePage = (_props: Props) => {
     return (
         <div>
             <div className='mq450:hidden'>

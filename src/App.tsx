@@ -1,9 +1,8 @@
-import { useEffect } from "react";
+
 import {
   Routes,
   Route,
-  useNavigationType,
-  useLocation,
+
 } from "react-router-dom";
 
 import HomePage from "./pages/HomePage";
@@ -13,8 +12,7 @@ import Leavegrp from "./pages/Leavegrp";
 import Joingrp from "./pages/Joingrp";
 
 function App() {
-  const action = useNavigationType();
-  const location = useLocation();
+  
  
 
   return (
