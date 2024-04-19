@@ -40,9 +40,7 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
-  "eslintConfig": {
-    "root": true
-  },
+ 
   "browserslist": {
     "production": [
       ">0.2%",
